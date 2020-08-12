@@ -4,8 +4,8 @@ class Cat {
     this.name=name;
     this.sex=sex;
   }
-  speak(name){
-    return name+" says meow!";
+  speak(){
+    return this.name+" says meow!";
   }
 }
  
